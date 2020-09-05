@@ -1,0 +1,84 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "As a user I want to login into my FACEBOOK account",
+        "description": "",
+        "id": "i-want-to-login-into-my-facebook-account;as-a-user-i-want-to-login-into-my-facebook-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5350477300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on FACEBOOK page",
+            "match": {
+              "location": "Loginsteps.i_am_on_FACEBOOK_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349501100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I entered my \"email\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 14
+                },
+                {
+                  "val": "password",
+                  "offset": 26
+                }
+              ],
+              "location": "Loginsteps.i_entered_my_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4575688300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on \"log in\" to login into my account",
+            "match": {
+              "arguments": [
+                {
+                  "val": "log in",
+                  "offset": 10
+                }
+              ],
+              "location": "Loginsteps.click_on_to_login_into_my_account(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to login into my FACEBOOK account",
+    "description": "",
+    "id": "i-want-to-login-into-my-facebook-account",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@googleSearch"
+      },
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]
